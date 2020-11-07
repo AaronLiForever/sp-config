@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: Item-Service #服务名称
+  cloud:
+    config:
+      override-none: true
+    
+server:
+  port: 8001 #端口号
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka1:2001/eureka, http://eureka2:2002/eureka #将服务注册到eureka中心
+      
