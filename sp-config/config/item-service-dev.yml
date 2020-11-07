@@ -1,6 +1,9 @@
 spring:
   application:
     name: Item-Service #服务名称
+  cloud:
+    config:
+      override-none: true
     
 server:
   port: 8001 #端口号

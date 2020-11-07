@@ -1,7 +1,10 @@
 spring:
   application:
     name: User-Service #服务名称
-    
+  cloud:
+    config:
+      override-none: true
+     
 server:
   port: 8101 #端口号
   
