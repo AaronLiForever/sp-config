@@ -1,4 +1,10 @@
 spring:
+  #配置消息总线
+  rabbitmq:
+    host: 192.168.126.140
+    port: 5672
+    username: admin
+    password: root
   application:
     name: Order-Service
   cloud:
